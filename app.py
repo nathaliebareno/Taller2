@@ -40,14 +40,14 @@ def plot_series(data, initial_date, proy):
             x=data_plot.index,
             y=data_plot['AT_load_actual_entsoe_transparency'],
             mode='lines',
-            line=dict(color="#188463"),
+            line=dict(color="#1db87a"),
         ),
         go.Scatter(
             name='Proyección',
             x=data_plot.index,
             y=data_plot['forecast'],
             mode='lines',
-            line=dict(color="#bbffeb",),
+            line=dict(color="#d4ffe8",),
         ),
         go.Scatter(
             name='Upper Bound',
